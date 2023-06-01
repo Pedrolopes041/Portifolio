@@ -130,10 +130,14 @@ headline {
   background-color: #0e001b;
   height: 300px;
   width: 300px;
-  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.card img {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
 }
 /*contato*/
 .contato {
@@ -176,6 +180,9 @@ headline {
     width: 150px;
     margin: 10px;
   }
+  .card img {
+  height: 150px;
+}
   .projeto-container {
     display: flex;
     flex-direction: column;
