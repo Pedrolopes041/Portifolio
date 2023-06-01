@@ -1,145 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /*barra de rolagem*/
 
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: black;
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #130542;
-    border-radius: 30px;
+  background: #130542;
+  border-radius: 30px;
 }
-
 /*navbar*/
 
 #nav-bar {
-    width: 100%;
-    background-color: #110E1B;
-    color: white;
-    height: 50px;
-    position: fixed;
-    border-bottom-style:groove;
-    border-width: 0.1px;
-    border-color:#130542;
-    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background-color: #110e1b;
+  color: white;
+  height: 50px;
+  position: fixed;
+  border-bottom-style: groove;
+  border-width: 0.1px;
+  border-color: #130542;
+  font-family: "Montserrat", sans-serif;
 }
 #nav-bar-container {
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #nav-bar-items {
-    display: flex;
-    list-style: none;
-    color: #cccc;
-    
+  display: flex;
+  list-style: none;
+  color: #cccc;
 }
 #nav-bar-items li {
-    padding: 10px;
+  padding: 10px;
 }
 .showcase img {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 .showcase-container img {
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
 }
 button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #130542;
-    color: white;
-    width: 170px;
-    height: 50px;
-    margin-top: 25px;
-    border-style:double;
-    user-select: none;
-    border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #130542;
+  color: white;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  user-select: none;
 }
 
 /*showcase*/
 .showcase {
-    height: 550px;
-    color: white;
-    background-color: #110E1B;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  height: 550px;
+  color: white;
+  background-color: #110e1b;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .showcase-container h2 {
-    font-size: 3.7rem;
+  font-size: 3.7rem;
 }
-.showcase-container p{
-    font-size: 1.8rem;
+.showcase-container p {
+  font-size: 1.8rem;
 }
 .eu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #0E001B;
-    color: white;
-    height: 650px;
-    font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0e001b;
+  color: white;
+  height: 650px;
+  font-family: "Montserrat", sans-serif;
 }
-#eu-container h3{
-    font-size: 50px;
-    margin-bottom: 20px;
-
+#eu-container h3 {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
-#eu-container p{
-    font-size: 20px;
-    color: #cccc;
+#eu-container p {
+  font-size: 20px;
+  color: #cccc;
 }
 headline {
-    font-size: 50px;
+  font-size: 50px;
 }
 .projetos {
-    background-color:#110E1B;
-    color: white;
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
+  background-color: #110e1b;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
 }
 .projeto-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 /*card*/
 .card {
-    background-color:#0E001B;
-    height: 300px;
-    width: 300px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #0e001b;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*contato*/
 .contato {
@@ -157,55 +151,60 @@ headline {
     width: 80px;
     height: 40px;
 }
+/*footer*/
 #footer-container {
-    height: 100px;
-    background-color: #110E1B;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  background-color: #110e1b;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
 }
-#footer-container img{
-    margin-right: 10px;
-
+#footer-container img {
+  margin-right: 10px;
 }
 
 /*Responsividade*/
 
 @media (max-width: 480px) {
-    .minha-imagem{
-        display: none;
-    }
-    .card {
-        height: 150px;
-        width: 150px;
-        margin: 10px;
-    }
-    .projeto-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    headline{
-        font-size: 40px;
-    }
-    .contato {
-        padding: 40px;
-    }
-    .eu {
-        padding: 40px;
-        text-align: justify;
-    }
-    .showcase {
-        padding: 40px;
-    }
-    .computer {
-        display: none;
-    }
-    #nav-bar-items li {
-        font-size: 12px;
-    }
-
+  .minha-imagem {
+    display: none;
+  }
+  .card {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+  .projeto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  headline {
+    font-size: 40px;
+  }
+  .contato {
+    padding: 40px;
+  }
+  .eu {
+    padding: 40px;
+    text-align: justify;
+  }
+  .showcase {
+    padding: 40px;
+  }
+  .computer {
+    display: none;
+  }
+  #nav-bar-items li {
+    font-size: 12px;
+  }
+  #nav-bar-container h1 {
+    font-size: 12px ;
+  }
+  #footer-container p {
+    font-size: 12px;
+  }
 }

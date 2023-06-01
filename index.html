@@ -9,16 +9,16 @@
     </script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>ShowFlix</title>
 </head>
 <body>
     <!--navbar-->
     <header>
         <NAV id="nav-bar">
             <div id ="nav-bar-container">
-                <a href="#showcase"><h1>PEDRO </h1></a>
+                <a><h1>PEDRO</h1></a>
                 <ul id="nav-bar-items">
-                    <a href="#eu"><li>Quem sou</li></a>
+                    <a href="#about"><li>Quem sou</li></a>
                     <a href="#projetos"><li>Projetos</li></a>
                     <a href="#contato"><li>Contato</li></a>
                 </ul>
@@ -41,7 +41,7 @@
     
         <!--eu-->
 
-        <section  class="eu">
+        <section id="about" class="eu">
 
             <img class="minha-imagem" src="./imagem/Avatar-Maker (2).svg">
 
@@ -54,7 +54,7 @@
     
         <!--projetos-->
 
-        <section class="projetos">
+        <section id="projetos" class="projetos">
             <headline>Projetos .</headline>
             <div class="projeto-container">
                     <div  class ="card">Esperando atualização </div>
@@ -65,19 +65,19 @@
             </div>
         </section>
 
-        <section class="contato">
+         <section id="contato" class="contato">
             <div id="contato-container">
                 <h3>Contate-me</h3><br>
                 <p>Se você gostaria de conversar sobre um projeto<br> ou apenas tem uma pergunta, por favor preencha<br> o formulário abaixo.</p><br><br>
 
                 <form action="mailto:pedroaugustolopesgomes@gmail.com" method="POST" enctype="text/plain">
                     Nome * <br>
-                    <label for="email"></label>
-                    <input type="email" name="Nome" id="email"> <br><br>
+                    <label for="text"></label>
+                    <input type="text" name="Nome" id="email"> <br><br>
 
                     Email * <br>
-                    <label for="text1"></label>
-                    <input type="text" name="Email" id="text1"> <br><br>
+                    <label for="email"></label>
+                    <input type="email" name="Email" id="text1"> <br><br>
 
                     Mensagem * <br>
                     <label for="text2"></label>
@@ -99,6 +99,5 @@
             <a href="https://web.whatsapp.com/send?phone=5587999826320" target="_blank"><img src="/imagem/whatsapp (2).png"></a>
         </div>
     </footer>
-    <script src="./javascript.js"></script>
 </body>
 </html>
